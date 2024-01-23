@@ -9,7 +9,7 @@ void init(WifiEsp* wifi)
   Serial.begin(115200);
   Serial.println("starting");
 
-  wifi->wifi_Innit();
+  //wifi->wifi_Innit();
 
   ultrasoonStartup();
   carLogic_init();
